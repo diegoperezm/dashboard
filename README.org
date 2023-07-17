@@ -1,0 +1,86 @@
+#+title: README
+#+OPTIONS: toc:nil   
+#+OPTIONS: html-postamble:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="org.css"/>
+#+OPTIONS: \n:t
+#+PROPERTY: header-args :results output  
+
+
+* Dashboard 
+
+🚧 Work in progress 🚧
+
+This project was bootstrapped with
+[Create React App](https://github.com/facebook/create-react-app).
+
+* Important
+
+- This  line is for gh-pages (~src/components/header/~):
+
+#+begin_src  html
+<Navbar.Brand href={process.env.PUBLIC_URL + '/'} >Journal</Navbar.Brand>```
+#+end_src
+
+* Dependencies
+
+- react
+- react-bootstrap
+- bootstrap
+- react-router-dom
+- recharts
+- uuid
+- gh-pages
+
+*  System Activity Report
+
+Comando:
+
+#+begin_src sh 
+sar -V
+#+end_src
+
+Resultado:
+
+#+begin_src sh
+# sysstat version 11.6.1
+# (C) Sebastien Godard (sysstat <at> orange.fr)
+#+end_src
+
+** Disk space 
+
+Comando:
+
+#+begin_src 
+df - h
+#+end_src
+
+Resultado:
+#+begin_src 
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1,7G     0  1,7G   0% /dev
+tmpfs           338M  1,4M  337M   1% /run
+/dev/sda1       220G   17G  192G   8% /
+tmpfs           1,7G     0  1,7G   0% /dev/shm
+tmpfs           5,0M  4,0K  5,0M   1% /run/lock
+tmpfs           1,7G     0  1,7G   0% /sys/fs/cgroup
+tmpfs           338M   16K  338M   1% /run/user/1000
+
+#+end_src
+
+
+***  Gráfico
+
+| Filesystem | Size | Used | Available |
+|------------+------+------+-----------|
+| /dev/sda1  | 220G | 17G  | 192G      |
+
+
+* Getting started 
+
+** /login screen
+
+![name](img/name.png)
+
+# Live Demo
+
+[DEMO](https://diegoperezm.github.io/dashboard/)

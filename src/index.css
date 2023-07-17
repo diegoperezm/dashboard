@@ -1,0 +1,71 @@
+/* header css */
+.inactive {
+  color: white;
+}
+
+.active-b {
+  font-weight: 900;
+  color: yellow;
+}
+
+a {
+  text-decoration: none !important;
+  padding-top: 0.1rem;
+  padding-right: 1rem;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+a.inactive {
+  color: black;
+}
+
+a.active-b {
+  color: red;
+}
+
+a:hover {
+  color: gray !important;
+}
+
+.canvas-container {
+  height: 80vh;
+}
+
+.title {
+  font-size: large;
+}
+
+.commentBox::placeholder {
+  color: lightgrey !important;
+  font-size: small;
+}
+
+
+@media (min-width: 600px) {
+  .title {
+    font-size: large;
+  }
+
+  .commentBox::placeholder {
+    color: lightgrey !important;
+    font-size: small;
+  }
+
+
+}
+
+@media (min-width: 800px) {
+  .title {
+    font-size: x-large;
+  }
+
+  .commentBox::placeholder {
+    color: lightgrey !important;
+    font-size: large;
+  }
+
+}
