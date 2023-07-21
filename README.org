@@ -46,6 +46,11 @@ Resultado:
 # (C) Sebastien Godard (sysstat <at> orange.fr)
 #+end_src
 
+** login
+
+
+[[file:img/login.png]]
+
 ** CPU 
 
 Comando:
