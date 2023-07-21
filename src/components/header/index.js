@@ -25,6 +25,7 @@ export default function Header() {
                   to="/cpu">
                      CPU 
               </NavLink>
+	   {/*
               <NavLink
                   className="inactive"
                   activeClassName="active-b"
@@ -33,6 +34,7 @@ export default function Header() {
                   to="/procesos">
                      PROCESOS 
               </NavLink>
+	   */}
               <NavLink
                   className="inactive"
                   activeClassName="active-b"
