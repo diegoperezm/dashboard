@@ -72,6 +72,9 @@ Average:        all      0,98      0,00      0,68      0,03      0,00     98,31
 #+end_src
 
 
+[[file:img/cpu.png]]
+
+
 ** Memoria
 
 Página de referencia:
@@ -109,6 +112,9 @@ Average:      1936015   4091392   6071189     75,82    195399   2371473  1155446
 #+end_src
 
 
+[[file:img/memoria.png]]
+
+
 ** Disk space 
 
 Comando:
@@ -136,6 +142,9 @@ tmpfs           338M   16K  338M   1% /run/user/1000
 | Filesystem | Size | Used | Available |
 |------------+------+------+-----------|
 | /dev/sda1  | 220G | 17G  | 192G      |
+
+
+[[file:img/disco.png]]
 
 
 * Getting started 
